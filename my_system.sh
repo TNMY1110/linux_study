@@ -11,8 +11,8 @@ date
 echo ""
 # 2. 사용자 정보
 echo "[사용자 정보]"
-echo "사용자: user1"
-echo "홈 디렉토리: /home/user1"
+echo "사용자: $USER"
+echo "홈 디렉토리: $HOME"
 echo ""
 # 3. 디스크 사용량(상위 5줄)
 echo "[디스크 사용량]"
