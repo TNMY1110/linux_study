@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 1 - 리눅스 기본 명령어</title>
+    <style>
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 3px solid #28a745;
+            padding-bottom: 10px;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .command-box {
+            background-color: #1e1e1e;
+            color: #00ff00;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Consolas', monospace;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #28a745;
+            color: white;
+        }
+        .back-link {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .back-link:hover {
+            background-color: #0056b3;
+        }
+        .note {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Day 1 - 리눅스 기본 명령어</h1>
+
+    <div class="content">
+        <h2>오늘 배운 명령어</h2>
+
+        <table>
+            <tr>
+                <th>명령어</th>
+                <th>설명</th>
+                <th>예시</th>
+            </tr>
+            <tr>
+                <td><code>ls</code></td>
+                <td>파일/폴더 목록 보기</td>
+                <td>ls -la</td>
+            </tr>
+            <tr>
+                <td><code>cd</code></td>
+                <td>디렉토리 이동</td>
+                <td>cd /home</td>
+            </tr>
+            <tr>
+                <td><code>pwd</code></td>
+                <td>현재 위치 확인</td>
+                <td>pwd</td>
+            </tr>
+            <tr>
+                <td><code>mkdir</code></td>
+                <td>폴더 만들기</td>
+                <td>mkdir test</td>
+            </tr>
+            <tr>
+                <td><code>touch</code></td>
+                <td>빈 파일 만들기</td>
+                <td>touch file.txt</td>
+            </tr>
+            <tr>
+                <td><code>cat</code></td>
+                <td>파일 내용 보기</td>
+                <td>cat file.txt</td>
+            </tr>
+        </table>
+
+        <h2>실습한 내용</h2>
+
+        <p>터미널에서 다음 명령어를 실행했습니다:</p>
+
+        <div class="command-box">
+$ ls -la<br>
+$ cd ~<br>
+$ pwd<br>
+$ mkdir practice<br>
+$ cd practice<br>
+$ touch hello.txt
+        </div>
+
+        <div class="note">
+            <strong>TIP:</strong> <code>ls -la</code>에서 <code>-l</code>은 자세히 보기, <code>-a</code>는 숨김 파일 포함입니다.
+        </div>
+
+        <h2>느낀점</h2>
+        <p>처음에는 명령어가 낯설었지만, 직접 실습하니까 점점 익숙해졌습니다.</p>
+        <p>특히 <code>Tab</code> 키로 자동완성 되는 게 편리했습니다!</p>
+    </div>
+
+    <a href="index.html" class="back-link">← 메인으로 돌아가기</a>
+</body>
+</html>
